@@ -2,7 +2,7 @@
 
 An approximate implementation of the OpenAI paper - [An Empirical Model of Large-Batch Training for MNIST](https://arxiv.org/abs/1812.06162). This is an approximate implementation because we do not have a multi-GPU setup and hence use sequential gradients of each step to calculate $B_{big}$ (refer Appendix A of the paper).
 
-To calculate the simple noise scale ($\mathcal{B}_{simple}$)
+To calculate the simple noise scale $\mathcal{B}_{simple}$
 
 ```
 python mnist_train.py --noise-scale --batch-size 128 --epochs 1 --lr 0.01
