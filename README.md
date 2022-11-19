@@ -8,7 +8,7 @@ To calculate the simple noise scale ($\mathcal{B}_{simple}$)
 python mnist_train.py --noise-scale --batch-size 128 --epochs 1 --lr 0.01
 ```
 
-This gives an average noise scale value of 876 which is close to the vale in the paper as well (900). Since MNIST's simple noise scale is an overestimate of the critical noise scale. $\mathcal{B}_{critical}$ (mentioned in the paper), we set the batch size to 512.
+This gives an average noise scale value of $\approx$ 870 which is close to the value in the paper as well (900). Since MNIST's simple noise scale is an overestimate of the critical noise scale. $\mathcal{B}_{critical}$ (mentioned in the paper), we set the batch size to 512.
 
 For model training,  
 

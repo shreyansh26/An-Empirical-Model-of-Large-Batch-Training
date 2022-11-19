@@ -1,6 +1,5 @@
 import torch
 
-
 def get_grad(model):
     parameters = list(model.parameters())
     grads = [param.grad.flatten().view(-1,1) for param in parameters if not type(param.grad) == type(None)]
