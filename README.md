@@ -15,3 +15,5 @@ For model training,
 ```
 python mnist_train.py --batch-size 512 --epochs 25 --lr 0.01
 ```
+
+Nice detailed reference [blogpost](https://towardsdatascience.com/implementing-a-batch-size-finder-in-fastai-how-to-get-a-4x-speedup-with-better-generalization-813d686f6bdf).
